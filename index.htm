@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasasti Kebon Kopi</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .hero-section{
+            height: 100vh;
+
+            background:
+            linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('https://asset.kompas.com/crops/iHp67vfItIydMp_TKe9ilvnDTh8=/0x700:1024x1383/750x500/data/photo/2022/05/24/628c6ba462270.jpeg');
+
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero-title{
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+            .hero-text{
+            font-size: 18px;
+            max-width: 700px;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .hero-button{
+            background-color: #d4a373;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .hero-button:hover{
+            background-color: white;
+            color: #d4a373;
+        }
+
+
+        .main-section{
+            padding: 80px 10%;
+           }
+
+        .section-title{
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 50px;
+            color: #5c3d2e;
+        }
+
+
+        .info-wrapper{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+              .info-image{
+            width: 400px;
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .info-content{
+            flex: 1;
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .info-paragraph{
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+
+        .story-section{
+            margin: 0 10% 80px;
+            background-color: #5c3d2e;
+            color: white;
+            padding: 50px;
+            border-radius: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .story-title{
+            font-size: 38px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+         .story-text{
+            font-size: 18px;
+            line-height: 1.9;
+              text-align: justify;
+        }
+
+        .gallery-wrapper{
+            padding: 80px 10%;
+        }
+
+        .photo-gallery{
+            display: flex;
+                gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery-image{
+            width: 300px;
+            max-width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+
+        .gallery-image:hover{
+            transform: scale(1.05);
+        }
+
+               @media(max-width: 768px){
+
+            .hero-title{
+                font-size: 40px;
+            }
+
+            .hero-text{
+                font-size: 16px;
+            }
+
+            .info-wrapper{
+                flex-direction: column;
+            }
+
+            .info-image{
+                width: 100%;
+            }
+
+            .section-title{
+                font-size: 32px;
+            }
+
+            .story-section{
+                margin: 0 5% 50px;
+                padding: 30px;
+                border-radius: 20px;
+            }
+
+            .story-title{
+                font-size: 28px;
+            }
+
+            .story-text{
+                font-size: 16px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="hero-section">
+
+        <h1 class="hero-title">Prasasti Kebon Kopi</h1>
+
+        <p class="hero-text">
+            Prasasti ini terkenal karena terdapat jejak telapak kaki gajah
+            sebagai simbol kekuasaan Raja Purnawarman.
+        </p>
+
+        <a href="https://www.kompas.com/stori/read/2022/05/24/160000679/prasasti-kebon-kopi-i-dan-ii"
+           class="hero-button">
+            Baca Artikel
+        </a>
+
+    </div>
+
+</header>
+
+<section class="main-section">
+
+    <h2 class="section-title">Tentang Prasasti Kebon Kopi</h2>
+
+    <div class="info-wrapper">
+
+        <img class="info-image"
+        src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,f_auto,q_auto:best,w_640/v1634025439/01ga84jny0akzfhr8e1mef36hc.jpg">
+
+        <div class="info-content">
+
+     <p class="info-paragraph">
+
+                Prasasti Kebon Kopi adalah salah satu prasasti peninggalan Kerajaan Tarumanegara
+                yang ditemukan di daerah Cibungbulang, Bogor, Jawa Barat.
+                Prasasti ini diperkirakan dibuat pada abad ke-5 Masehi pada masa pemerintahan Raja Purnawarman.
+
+                <br><br>
+
+                Prasasti Kebon Kopi terkenal karena terdapat pahatan sepasang telapak kaki gajah 
+                yang dianggap sebagai simbol kendaraan Raja Purnawarman,
+                yaitu gajah Airawata milik Dewa Indra dalam kepercayaan Hindu.
+
+                <br><br>
+
+                Tulisan pada prasasti menggunakan huruf Pallawa dan bahasa Sanskerta.
+                Isi singkatnya memuji kebesaran Raja Purnawarman yang disamakan dengan Dewa Indra.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+     <section class="story-section">
+
+    <h3 class="story-title">Sejarah Prasasti Kebon Kopi</h3>
+
+    <p class="story-text">
+
+        Prasasti Kebon Kopi ditemukan di daerah Cibungbulang, Bogor, Jawa Barat, 
+        di dekat Sungai Ciaruteun. Nama “Kebon Kopi” berasal dari tempat ditemukannya 
+        prasasti yang dahulu merupakan area perkebunan kopi.
+
+        <br><br>
+
+        Keberadaan Prasasti Kebon Kopi menunjukkan bahwa pada masa itu masyarakat 
+        Tarumanegara sudah mengenal budaya tulis dan pengaruh agama Hindu. 
+        Prasasti ini juga menjadi peninggalan sejarah penting yang membantu para ahli 
+        mengetahui perkembangan kerajaan-kerajaan kuno di Indonesia.
+
+    </p>
+
+</section>
+
+<section class="gallery-wrapper">
+
+    <h2 class="section-title">Gallery Kebon Kopi</h2>
+
+    <div class="photo-gallery">
+
+         <img class="gallery-image"
+        src="https://i.ytimg.com/vi/3OKMPQOtX3w/hq720.jpg">
+
+    <img class="gallery-image"
+        src="https://cdn.grid.id/crop/0x0:0x0/700x465/photo/2020/04/30/1169543605.jpg">
+
+            <img class="gallery-image"
+        src="https://i.pinimg.com/736x/45/34/e0/4534e000efb22a7bf8cb0812d02de80e.jpg">
+   <img class="gallery-image"
+        src="https://anangpaser.wordpress.com/wp-content/uploads/2012/02/sanskrit-language-and-pallava-script-and-elephant-footprints-bogor.jpg">
+
+    </div>
+
+</section>
+
+</body>
+</html>
